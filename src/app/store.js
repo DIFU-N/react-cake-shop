@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { cakeReducer } from "../features/cake/cake-slice";
-import { iceCreamReducer } from "../features/ice cream/icecream-slice";
-import { userReducer } from "../features/user/user-slice";
+import cakeReducer from "../features/cake/cake-slice";
+import iceCreamReducer  from "../features/ice cream/icecream-slice";
+import userReducer  from "../features/user/user-slice";
 // const reduxLogger = require('redux-logger');
 // const { getDefaultMiddleware } = require('@reduxjs/toolkit');
 
