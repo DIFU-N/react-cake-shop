@@ -11,9 +11,11 @@ const iceCreamSlice = createSlice({
     reducers: {
         ordered: (state, action) => {
             state.numOfIceCreams -= action.payload
+            // state.numOfIceCreams -= 1
         },
         restocked: (state, action) => {
             state.numOfIceCreams += action.payload
+            // state.numOfIceCreams += 1
         }
     },
     // trying to affect this state when another action happens
